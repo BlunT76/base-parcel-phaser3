@@ -1,0 +1,24 @@
+{
+  "name": "alcochef",
+  "version": "1.0.0",
+  "description": "Platform game using pixelart",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "watch": "parcel watch index.js"
+  },
+  "keywords": [
+    "pixelart",
+    "platform",
+    "chef",
+    "cook",
+    "2d"
+  ],
+  "author": "Liam Pugh",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.0.0",
+    "parcel": "^2.0.1",
+    "phaser": "^3.55.2"
+  }
+}
